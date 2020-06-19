@@ -1,0 +1,64 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+/*.navbar{
+
+   position: sticky;
+   top:0px;
+    
+}
+
+.navbar-resdine{
+	color:white;
+	font-family:Adobe Gothic Std;
+
+	
+}
+.nav
+{
+	padding: 0px;
+}*/
+#carousel-example-generic{
+	margin-top: -21px;
+}
+#afterslide{
+	font-size:20px;
+	
+
+}
+.contact{
+	margin:10px;
+	background: #f4f6f8;
+}
+
+.general{
+	font-size:20px;
+	
+}
+.aftergen{
+	font-size:20px;
+	margin-left: 50px;
+}
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color:#000077;
+    font-size: 25px;
+}
+.whyjoin{
+background:#c4c4c4;
+margin-top:-10px;
+}
+.gettouch{
+	color:#0000e8;
+	margin-left: 5px;
+}
+.sub{
+	color:white;
+	background:gray;
+	font-size: 30px;
+}

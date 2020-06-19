@@ -1,0 +1,179 @@
+/*code for index*/
+.navbar{
+
+   position:fixed;
+   top:0px;
+   border-radius: 0;
+
+ }
+.navbar-resdine{
+	color:white;
+	font-family:Adobe Gothic Std;
+
+	
+} 
+.col-md-12{
+	position: relative;
+
+}
+
+
+/*for image*/
+#image{
+	margin-top:-20px;
+	height:500px;
+	background:url("../image/img4.jpg");
+	background-size:100% 100%;
+	position: relative;
+}
+#discover{
+	position: absolute;
+	z-index: 99;
+	margin-top:50vh;
+	margin-left:21%; 
+	color: white;
+	font-size: 45px;
+	font-weight: bold;
+	
+}
+.search-box{
+	position: absolute;
+	z-index: 99;
+	height: 8vh;
+	width: 48%;
+	margin-top: 60vh;
+	margin-left:15%;
+	font-size: 20px;
+	padding-left:5% 
+}
+#submit{
+	position: absolute;
+	z-index: 99;
+	margin-top: 60vh;
+	margin-left: 65%;
+	height: 8vh;
+	width:15%;
+	border-radius:8px;
+	background-color:#359aff;
+	font-size: 20px;
+	color:white;
+}
+#submit:hover{
+	background-color:#5badff;
+  color: white;
+}
+
+.you{
+	margin-top: -200px;
+	background: transparent;
+}
+
+}
+/* .special{
+	
+	font-family: Algerian;
+	font-style: bold;
+	font-size: 50px;
+	color:white;
+	text-align: center;
+	padding-bottom: 20px;
+    padding-top: 20px;
+}*/
+
+.dish{
+	border:1px solid #808080;
+	border-radius: 5px;
+		outline: #eaeaea solid 4px;
+		
+}
+#tunday{
+font-size: 19px;
+text-align: justify;
+
+}
+#head
+{
+color:red;
+}
+
+
+#div
+{
+
+background-color: black;
+background: transparent;
+
+margin-top: 10px;
+
+height:200px
+
+
+z-index:-1;
+}
+.taj{
+	text-align: justify;
+font-size:20px;
+}
+#deal{
+	font-family: Algerian;
+	font-style: bold;
+	font-size: 50px;
+	color:white;
+	text-align: center;
+	background: gray;
+}
+#afterdeal{
+	font-size: 19px;
+}
+
+#input{
+	
+}
+#lko{
+	
+}
+/*#button{
+	margin-left: 40px;
+}*/
+
+.text{
+	font-size:150px;
+}
+/*... start signup....*/
+
+.sig{
+	 height:30px;
+	width:350px;
+	font-size:20px;
+	border:none;
+	border-bottom:  1px solid #0079f2; 
+
+}
+#signup{
+	background-color:#0079f2;
+	font-size:20px;
+	color:white;
+	opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+  display: inline-block;
+
+}
+#signup:hover{
+	/*background-color:#5badff;
+  color: white;*/
+  opacity: 1
+
+
+}
+.resform{
+	background: navy;
+}
+.footer{
+	margin:0px;
+	background:#222222;
+}
+.dis{
+	 margin:10px;
+	 color:white;
+}

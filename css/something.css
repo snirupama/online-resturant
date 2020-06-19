@@ -1,0 +1,131 @@
+@import "compass/css3";
+
+.container{
+  margin: 0 auto;
+  width: auto;
+}
+span{
+  font-family: 'Comic Sans MS';
+  opacity: 0;
+}
+$qt-red: #EA463D;
+@mixin mediaquery($point, $ele: min) {
+  @if $point == standard {
+    @media (#{$ele}-width: 1140px) { @content; }
+  }
+  @else if $point == ipad-land {
+    @media (#{$ele}-width: 1024px) { @content; }
+  }
+  @else if $point == ipad-port {
+    @media (#{$ele}-width: 768px) { @content; }
+  }
+  @else if $point == iphone5-land {
+    @media (#{$ele}-width: 568px)  { @content; }
+  }
+  @else if $point == iphone4-land {
+    @media (#{$ele}-width: 480px)  { @content; }
+  }
+  @else if $point == iphone-port {
+    @media (#{$ele}-width: 320px)  { @content; }
+  }
+  @else {
+    @media (#{$ele}-width: $point)  { @content; }
+  }
+}
+
+.radial-progress {
+			$circle-size: 120px;
+			$circle-size-sml: 85px;
+			float:left;
+			$circle-background: #d6dadc;
+			$circle-color: #97a71d;
+			$inset-size: 90px;
+			$inset-color: #fbfbfb;
+			$transition-length: 1s;
+			$shadow: 6px 6px 10px rgba(0,0,0,0.2);
+		
+			margin: 25px;
+			width:  $circle-size;
+			height: $circle-size;
+			@include mediaquery(480px,max){
+				width:  $circle-size-sml;
+				height: $circle-size-sml;
+			}
+			position: relative;
+			background-color: #d7d7d7;
+			border-radius: 50%;
+			.circle {
+				.mask, .fill, .shadow {
+					width:    $circle-size;
+					height:   $circle-size;
+					@include mediaquery(480px,max){
+						width:    $circle-size-sml;
+						height:   $circle-size-sml;
+					}
+					position: absolute;
+					border-radius: 50%;
+				}
+				.mask, .fill {
+					-webkit-backface-visibility: hidden;
+					transition: -webkit-transform $transition-length;
+					transition: -ms-transform $transition-length;
+					transition: transform $transition-length;
+					&.reanimate {
+						transition: -webkit-transform 0s;
+						transition: -ms-transform 0s;
+						transition: transform 0s;
+					}
+					&.reset {
+						-webkit-transform: rotate(0deg) !important;
+						-ms-transform: rotate(0deg) !important;
+						transform: rotate(0deg) !important;
+					} 
+				}
+				.mask {
+					clip: rect(0px, $circle-size, $circle-size, $circle-size/2);
+					@include mediaquery(480px,max){
+					clip: rect(0px, $circle-size-sml, $circle-size-sml, $circle-size-sml/2);
+					}
+					.fill {
+						clip: rect(0px, $circle-size/2, $circle-size, 0px);
+						background-color: $qt-red;
+						@include mediaquery(480px,max){
+							clip: rect(0px, $circle-size-sml/2, $circle-size-sml, 0px);
+						}
+					}
+					
+				}
+			}
+			.inset {
+				width: 100px !important;
+				height: 100px !important;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin: -50px 0 0 -50px !important;
+				background-color: #fbfbfb;
+border-radius:50%;
+text-align:center;
+ line-height: 100px;
+				@include mediaquery(480px,max){
+					width: 66px !important;
+					height: 66px !important;
+					margin: -33px 0 0 -33px !important;
+					line-height: 90px;
+				}
+			}
+  .little{
+						font-size: 22px;
+						color: #d7d7d7;
+						@include mediaquery(480px,max){
+							font-size: 12px;
+						}
+					}
+					.big{
+						font-size: 37px;		
+						@include mediaquery(480px,max){
+							font-size: 27px;
+						}
+					}
+
+		}

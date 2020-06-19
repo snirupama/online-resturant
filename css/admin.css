@@ -1,0 +1,34 @@
+.bg
+	{ background:url('../admin/images/travel1.jpg.jpg') no-repeat ;
+
+	  width:100%;
+	  height:100%;
+	  background-size: cover;
+	  background-position: bottom center;
+	}
+	#log{
+		background-color: rgba(255,255,255,.1);
+		padding: 60px 40px;
+		margin-top: 80px;
+		-webkit-box-shadow: -5px 2px 84px 17px rgba(255,255,255,0.75);
+-moz-box-shadow: -5px 2px 84px 17px rgba(255,255,255,0.75);
+box-shadow: -5px 2px 84px 17px rgba(255,255,255,0.75);
+	}
+	h1{
+		
+        text-align: center;
+		font-weight: bolder;
+		margin-top:-20px;
+	}
+	.heading{
+		color: white;
+	}
+	label{
+		font-size: 20px;
+		color: white;
+	}
+	button{
+		-webkit-box-shadow: -5px 2px 84px 17px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 2px 84px 17px rgba(0,0,0,0.75);
+    box-shadow: -5px 2px 84px 17px rgba(0,0,0,0.75);
+	}
