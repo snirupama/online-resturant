@@ -14,10 +14,9 @@ if($conn){
 <?php include("nav.php");?>
  </div>
  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="image">
-      <h1 id ="discover">Discover resturants you love</h1>
+      <!--<h1 id ="discover">Discover resturants you love</h1>-->
       <input type="text" name="search-box" class="search-box" placeholder="Search by resturant or Location">
-   <input type="submit" name="submit" id="submit" placeholder="Search it">
-  
+   <!--<input type="submit" name="submit" id="submit" placeholder="Search it">-->
  </div>
  
   

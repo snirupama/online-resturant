@@ -20,19 +20,19 @@
 
 /*for image*/
 #image{
-	margin-top:-20px;
+	margin-top:-15px;
 	height:500px;
 	background:url("../image/img4.jpg");
 	background-size:100% 100%;
 	position: relative;
 }
 #discover{
-	position: absolute;
+	position:absolute;
 	z-index: 99;
-	margin-top:50vh;
+	margin-top:30vh;
 	margin-left:21%; 
 	color: white;
-	font-size: 45px;
+	font-size:45px;
 	font-weight: bold;
 	
 }
@@ -41,7 +41,7 @@
 	z-index: 99;
 	height: 8vh;
 	width: 48%;
-	margin-top: 60vh;
+	margin-top:50vh;
 	margin-left:15%;
 	font-size: 20px;
 	padding-left:5% 
@@ -49,7 +49,7 @@
 #submit{
 	position: absolute;
 	z-index: 99;
-	margin-top: 60vh;
+	margin-top:30vh;
 	margin-left: 65%;
 	height: 8vh;
 	width:15%;
